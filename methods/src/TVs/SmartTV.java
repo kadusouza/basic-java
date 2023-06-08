@@ -1,7 +1,9 @@
+package TVs;
+
 public class SmartTV {
-    boolean isON = false;
-    int channel = 5;
-    int volume = 25;
+    public boolean isON = false;
+    public int channel = 5;
+    public int volume = 25;
 
     public void turnOnOrOff() {
         isON = !isON;

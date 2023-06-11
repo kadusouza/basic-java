@@ -14,7 +14,7 @@ public class Counter {
         int parameterTwo = terminal.nextInt();
 
         try {
-            int count  = contar(parameterOne, parameterTwo);
+            int count  = count(parameterOne, parameterTwo);
 
             for (int i = 1; i <= count; i++) {
                 System.out.println("Counting: " + i);
@@ -25,7 +25,7 @@ public class Counter {
         }
 
     }
-    static int contar(int parameterOne, int parameterTwo ) throws InvalidParameterException {
+    static int count(int parameterOne, int parameterTwo ) throws InvalidParameterException {
         if (parameterOne > parameterTwo)
             throw new InvalidParameterException();
 
